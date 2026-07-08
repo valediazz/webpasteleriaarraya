@@ -1,0 +1,570 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family:'Montserrat', Arial, sans-serif;
+    background:#FFF1F5;
+    color:#5A3A42;
+}
+
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+.header{
+
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:#FEB9B1;
+
+}
+
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+}
+
+
+.logo img{
+
+    width:75px;
+
+}
+
+
+.logo h1{
+
+    font-size:32px;
+    letter-spacing:3px;
+    color:#8E004A;
+
+}
+
+
+.logo span{
+
+    font-size:18px;
+    color:#5A3A42;
+
+}
+
+
+.nav ul{
+
+    list-style:none;
+    display:flex;
+    gap:30px;
+
+}
+
+
+.nav a{
+
+    font-weight:bold;
+    transition:.3s;
+
+}
+
+
+.nav a:hover{
+
+    color:#E6396E;
+
+}
+
+
+.buscador input{
+
+    width:150px;
+    padding:10px 15px;
+    border-radius:20px;
+    border:none;
+
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background: #FFF1F5;
+    padding: 60px 8%; 
+    gap: 40px;
+}
+
+.hero-texto {
+    width: 45%;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-texto h2 {
+    font-size: 42px;
+    color: #8E004A;
+    margin-bottom: 25px;
+    line-height: 1.2; 
+}
+
+.hero-imagen {
+    width: 45%;
+    display: flex;
+    justify-content: center; 
+}
+
+.hero-imagen img {
+    width: 100%;
+    max-width: 550px; 
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(142, 0, 74, 0.15); 
+}
+
+
+.button{
+
+    display:inline-block;
+    background:#E6396E;
+    color:white;
+    padding:14px 28px;
+    border-radius:30px;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+
+.button:hover{
+
+    background:#FF3EA1;
+
+}
+
+
+.destacados{
+
+    text-align:center;
+    padding:60px 8%;
+    background:white;
+
+}
+
+
+.destacados h2{
+
+    color:#8E004A;
+    font-size:32px;
+
+}
+
+
+.tabs{
+
+    margin:25px 0;
+    color:#E6396E;
+
+}
+
+
+.tabs a{
+
+    font-weight:bold;
+
+}
+
+
+.historia{
+
+    padding:70px 8%;
+    background:#FFF1F5;
+
+}
+
+
+.contenedor-historia{
+
+    display:flex;
+    align-items:center;
+    gap:50px;
+
+}
+
+
+.historia-imagen{
+
+    width:50%;
+
+}
+
+
+.historia-imagen img{
+
+    border-radius:25px;
+
+}
+
+
+.historia-contenido{
+
+    width:50%;
+
+}
+
+
+.historia-contenido h2{
+
+    color:#8E004A;
+    font-size:35px;
+
+}
+
+
+.historia-contenido h3{
+
+    margin:15px 0;
+
+}
+
+
+.historia-contenido p{
+
+    line-height:1.7;
+    margin-bottom:15px;
+
+}
+
+
+.productos{
+
+    padding:70px 8%;
+    text-align:center;
+    background:white;
+
+}
+
+
+.productos h2{
+
+    color:#8E004A;
+    font-size:35px;
+
+}
+
+
+.productos-grid{
+
+    margin-top:40px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+
+}
+
+
+.producto{
+
+    background:#FFF1F5;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+}
+
+
+.producto img{
+
+    border-radius:15px;
+
+}
+
+
+.producto h3{
+
+    margin:15px 0;
+
+}
+
+
+.producto p{
+
+    color:#E6396E;
+    font-weight:bold;
+
+}
+
+
+.contacto{
+
+    display:flex;
+    gap:50px;
+    padding:70px 8%;
+    background:#F9C6D3;
+
+}
+
+
+.caja-contacto,
+.caja-visitanos{
+
+    width:50%;
+
+}
+
+
+.caja-contacto h2,
+.caja-visitanos h2{
+
+    color:#8E004A;
+    margin-bottom:20px;
+
+}
+
+
+form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+input,
+textarea{
+
+    padding:15px;
+    border:none;
+    border-radius:15px;
+
+}
+
+
+textarea{
+
+    height:120px;
+
+}
+
+
+.mapa img{
+
+    border-radius:20px;
+
+}
+
+
+.newsletter{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px 8%;
+    background:white;
+
+}
+
+
+.newsletter h3{
+
+    color:#8E004A;
+
+}
+
+
+.newsletter form{
+
+    flex-direction:row;
+
+}
+
+
+.footer{
+
+    display:flex;
+    justify-content:space-around;
+    padding:50px 8%;
+    background:#FD8BAC;
+    color:white;
+
+}
+
+
+.footer-col{
+
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+
+}
+
+
+.footer-col img{
+
+    width:70px;
+
+}
+
+
+.footer-col h3{
+
+    color:white;
+
+}
+
+
+.copyright{
+
+    background:#8E004A;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+
+@media(max-width:768px){
+
+
+.header{
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+.nav ul{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+.hero,
+.contenedor-historia,
+.contacto,
+.newsletter,
+.footer{
+
+    flex-direction:column;
+
+}
+
+
+.hero-texto,
+.hero-imagen,
+.historia-imagen,
+.historia-contenido,
+.caja-contacto,
+.caja-visitanos{
+
+    width:100%;
+
+}
+
+
+.productos-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.newsletter form{
+
+    flex-direction:column;
+
+}
+
+}
+
+
+.landing-pantalla {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('img/pasteleria.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-contenido {
+    padding: 20px;
+    max-width: 650px;
+    width: 90%;
+}
+
+.landing-sup {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: -10px; 
+}
+
+.landing-titulo {
+    font-size: 70px;
+    color: #111; 
+    letter-spacing: 3px;
+    margin: 5px 0;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.landing-sub {
+    font-size: 38px;
+    color: #E6396E; 
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive; 
+    margin-top: -20px; 
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.landing-desc {
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #222;
+    font-size: 18px;
+}
+
+.landing-desc p strong {
+    font-size: 22px; 
+}
+
+.btn-landing {
+    display: inline-block;
+    background: #E6396E;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 8px; 
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-landing:hover {
+    background: #FF3EA1;
+}
